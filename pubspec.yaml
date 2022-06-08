@@ -1,0 +1,40 @@
+name: rex_trading
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  smooth_page_indicator: ^1.0.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.0.1+1 
+  flutter_launcher_icons: ^0.9.0
+
+flutter_icons: 
+  android: true
+  ios: true
+  image_path: asset/rex.png
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  image: asset/rex.png
+  color: "#1D52BD"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/stock1.png
+  fonts:
+    - family: Roboto Slab
+      fonts:
+        - asset: asset/RobotoSlab-VariableFont_wght.ttf
+
+
