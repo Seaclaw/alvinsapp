@@ -22,3 +22,5 @@ class _SignUpState extends State<SignUp> {
     );
   }
 }
+
+//STUB: WILL COMPLETE CODE IN THE NEXT ASSIGNMENT
