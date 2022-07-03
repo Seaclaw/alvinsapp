@@ -9,8 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  auto_size_text: ^2.1.0
+  shared_preferences: ^2.0.15 
   cupertino_icons: ^1.0.2
   smooth_page_indicator: ^1.0.0+2
+  flutter_login: ^4.0.0
+  firebase_auth: ^3.3.20
+  introduction_screen: ^3.0.1
 
 dev_dependencies:
   flutter_test:
@@ -32,9 +37,11 @@ flutter:
   uses-material-design: true
   assets:
     - asset/stock1.png
+    - asset/photo-1.png
+    - asset/rex.png
+    - asset/stock3.png
+    - asset/stock4.png
   fonts:
     - family: Roboto Slab
       fonts:
         - asset: asset/RobotoSlab-VariableFont_wght.ttf
-
-
