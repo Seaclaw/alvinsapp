@@ -9,7 +9,8 @@ class SignUp extends StatefulWidget {
   SignUp({Key? key}) : super(key: key);
 
   @override
-  State<SignUp> createState() => _SignUpState();
+  State<SignUp> createState() =>
+      _SignUpState(); //create Stateful widget called SignUp
 }
 
 class _SignUpState extends State<SignUp> {
