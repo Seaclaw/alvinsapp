@@ -42,7 +42,7 @@ packages:
       name: auto_size_text
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0"
+    version: "3.0.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -92,13 +92,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
-  dots_indicator:
-    dependency: transitive
-    description:
-      name: dots_indicator
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.1.0"
   fake_async:
     dependency: transitive
     description:
@@ -120,48 +113,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "6.1.2"
-  firebase_auth:
-    dependency: "direct main"
-    description:
-      name: firebase_auth
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "3.3.20"
-  firebase_auth_platform_interface:
-    dependency: transitive
-    description:
-      name: firebase_auth_platform_interface
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "6.2.8"
-  firebase_auth_web:
-    dependency: transitive
-    description:
-      name: firebase_auth_web
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "3.3.17"
-  firebase_core:
-    dependency: transitive
-    description:
-      name: firebase_core
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.18.0"
-  firebase_core_platform_interface:
-    dependency: transitive
-    description:
-      name: firebase_core_platform_interface
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "4.4.1"
-  firebase_core_web:
-    dependency: transitive
-    description:
-      name: firebase_core_web
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.6.5"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -182,12 +133,12 @@ packages:
     source: hosted
     version: "4.0.0"
   flutter_native_splash:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: flutter_native_splash
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.2.3+1"
+    version: "2.2.4"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -205,13 +156,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "10.1.0"
-  http_parser:
-    dependency: transitive
-    description:
-      name: http_parser
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "4.0.1"
   image:
     dependency: transitive
     description:
@@ -219,20 +163,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.2.0"
-  intl:
-    dependency: transitive
-    description:
-      name: intl
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.17.0"
-  introduction_screen:
-    dependency: "direct main"
-    description:
-      name: introduction_screen
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "3.0.2"
   js:
     dependency: transitive
     description:

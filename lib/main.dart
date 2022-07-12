@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rex_trading/onboarding.dart';
-
 import 'package:rex_trading/signup.dart';
-//import 'package:flutter/services.dart';
+import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 //import 'dart:html';
 //import 'package:flutter/rendering.dart';
@@ -14,8 +13,13 @@ int? isViewed;
 
 void main(List<String> args) async {
   WidgetsFlutterBinding.ensureInitialized();
-  SharedPreferences prefs = await SharedPreferences.getInstance();
-  isViewed = prefs.getInt('onBoard');
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown
+  ]); //disable landscape mode
+
+  //SharedPreferences prefs = await SharedPreferences.getInstance();
+  //isViewed = prefs.getInt('onboard');
   runApp(MyApp());
 }
 
@@ -25,8 +29,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(primarySwatch: Colors.blue),
-        home: isViewed != 0 ? SignUp() : Onboarding());
+        debugShowCheckedModeBanner: false, //don't show debug banner
+        theme: ThemeData(
+            primarySwatch: Colors.blue), //set primary theme colour to blue
+        home: isViewed != 0
+            ? Onboarding()
+            : SignUp()); //if the user has already viewed the onboarding screen, head to the SignUp page otherwise head to the Onboarding screen.
   }
 }

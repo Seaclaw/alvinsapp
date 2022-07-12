@@ -1,0 +1,12 @@
+Hi Sir,
+
+I have programmed the code to only show the onboarding screen once and hence why once
+the app is reopened it becomes a blue screen. This is not a technical bug but a feature.
+I added this to make the onboarding process more realistic. 
+If you want to retry the onboarding experience, you will need to:
+1) Disable lines 21 and 22 in main.dart by adding //
+2) Restart the program by running "flutter run"
+
+I have disabled these two lines by default so you can repeat the onboarding multiple times. 
+
+Regards. 
